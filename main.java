@@ -19,7 +19,8 @@ public class main {
         int max = 9999;
         int min = 1000;
         Random r = new Random();
-        while(true){
+        int x = 0;
+        while(x < 10){
         char first = (char)(r.nextInt(26) + 'a');
         char second = (char)(r.nextInt(26) + 'a');
         int randomNum = r.nextInt((max - min) + 1) + min;
@@ -32,8 +33,9 @@ public class main {
           } catch (IOException | URISyntaxException e2) {
               e2.printStackTrace();
           } 
+          x++;
 
-          TimeUnit.SECONDS.sleep(2);
+          TimeUnit.SECONDS.sleep(0);
         }
             }
 
