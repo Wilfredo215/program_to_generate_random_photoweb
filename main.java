@@ -19,7 +19,6 @@ public class main {
         int max = 9999;
         int min = 1000;
         Random r = new Random();
-        int randomInts;
         while(true){
         char first = (char)(r.nextInt(26) + 'a');
         char second = (char)(r.nextInt(26) + 'a');
@@ -34,7 +33,7 @@ public class main {
               e2.printStackTrace();
           } 
 
-          TimeUnit.SECONDS.sleep(5);
+          TimeUnit.SECONDS.sleep(2);
         }
             }
 
